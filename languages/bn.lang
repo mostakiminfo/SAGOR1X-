@@ -55,13 +55,13 @@ users.needObject=Object thakte hobe
 # includes/handle/handleCommand.js
 
 handleCommand.userBanned=Box e ablamir oporad e tore ban kore deya hoise-!!🚫
-handleCommand.threadBanned=Group ban hoise..!⛔️\nPlease Owner CYBER ULLASH er shathe contact koro unban er jonno ⚠️
+handleCommand.threadBanned=Group ban hoise..!⛔️\nPlease Owner MOSTAKIM er shathe contact koro unban er jonno ⚠️
 handleCommand.commandNotExist=━━━━━━━✦━━━━━━━ \n✨ Assalamu Alaikum! 💖🌟\n━━━━━━━✦━━━━━━━\n\nTumar deya command valid na.\nCould it be— \n•—» %1  «—•\nCheck koro input, please!\n━━━━━━━✦━━━━━━━
 handleCommand.commandThreadBanned=Tumar thread e "%1" command use kora jacche na
 handleCommand.commandUserBanned=Tumi "%1" command use korte parba na
 handleCommand.threadNotAllowNSFW=Ei command shudhu Andmi er jonno
 handleCommand.cantGetInfoThread=Thread info pawa jacche na, error: %1
-handleCommand.permssionNotEnough="%1"\n⎯⎯⎯⎯⎯⎯\n✨ Shudhu Maharaja ULLASH ei command use korte parbe.\n✨ Tumi shudhu proja, use kora allowed na 🙂🐸\n"%1"\n⎯⎯⎯⎯⎯⎯
+handleCommand.permssionNotEnough="%1"\n⎯⎯⎯⎯⎯⎯\n✨ Shudhu MOSTAKIM ISLAM SAGOR ei command use korte parbe.\n✨ Tumi shudhu proja, use kora allowed na 🙂🐸\n"%1"\n⎯⎯⎯⎯⎯⎯
 handleCommand.cantSetMessageReaction=SetMessageReaction e unexpected error, error: %1
 handleCommand.executeCommand=[ %1 ] Command use hoise: %2 by user: %3 at thread: %4 | Args: %5 | Processing time: %6ms
 handleCommand.commandError=Command use korar somoy unexpected error, error: %2
