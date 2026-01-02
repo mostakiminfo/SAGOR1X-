@@ -11,7 +11,7 @@ module.exports.config = {
     description: "Show Owner Info",
     commandCategory: "info",
     usages: "",
-    cooldowns: 5
+    cooldowns: 1
 };
 
 module.exports.run = async function({ api, event }) {
