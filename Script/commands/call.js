@@ -2,7 +2,7 @@ module.exports.config = {
  name: "call",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "—͟͟͞͞𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️", //don't change my credit 
+ credits: "—͟͟͞͞MOSTAKIM-V2-BOT", //don't change my credit 
  description: "কল বোম্বার, শুধুমাত্র বাংলাদেশি নাম্বারের জন্য",
  commandCategory: "Tool",
  usages: "/call 01xxxxxxxxx",
