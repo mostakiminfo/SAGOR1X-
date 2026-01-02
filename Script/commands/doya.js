@@ -2,7 +2,7 @@ module.exports.config = {
  name: "doya",
  version: "1.2.8",
  hasPermssion: 0,
- credits: "Islamick Chat", //Don't chinge The credit
+ credits: "MOSTAKIM-V2-BOT", //Don't chinge The credit
  description: "Short doya",
  commandCategory: "doya",
  usages: "doya",
