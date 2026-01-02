@@ -4,13 +4,13 @@ const fs = require("fs-extra");
 const moment = require("moment-timezone");
 
 module.exports.config = {
-    name: "xadmin",
+    name: "mostakim",
     version: "1.0.0",
     hasPermssion: 0,
     credits: "MOSTAKIM", //
     description: "Show Owner Info",
     commandCategory: "info",
-    usages: "",
+    usages: "MOSTAKIM",
     cooldowns: 1
 };
 
