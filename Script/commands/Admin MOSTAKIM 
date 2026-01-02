@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event }) {
         attachment: fs.createReadStream(__dirname + "/cache/1.png")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"));
 
-    return request(encodeURI(`https://www.facebook.com/photo.php?fbid=1077745397505881&set=a.106830557930708&type=3&app=fbl`))
+    return request(encodeURI(`https://www.facebook.com/photo.php?fbid=1077745397505881&set=a.10683055730708&type=3&app=fbl`))
         .pipe(fs.createWriteStream(__dirname + '/cache/1.png'))
         .on('close', () => callback());
 };
