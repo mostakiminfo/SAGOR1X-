@@ -7,7 +7,7 @@ module.exports = {
  description: "auto video download",
  commandCategory: "user",
  usages: "",
- cooldowns: 5,
+ cooldowns: 1,
 },
 run: async function({ api, event, args }) {},
 handleEvent: async function ({ api, event, args }) {
@@ -29,7 +29,7 @@ const data = await alldown(content);
  fs.writeFileSync(__dirname + "/cache/auto.mp4", Buffer.from(video, "utf-8"))
 
  return api.sendMessage({
- body: `🔥🚀 𝗜𝘀𝗹𝗮𝗺𝗶𝗰𝗸 𝗰𝗵𝗮𝘁 𝗯𝗼𝘁 | ᵁᴸᴸ⁴ˢᴴ 🔥💻 
+ body: `MOSTAKIM-V2-BOT | MOSTAKIM 
 📥⚡𝗔𝘂𝘁𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿⚡📂
 🎬 𝐄𝐧𝐣𝐨𝐲 𝐭𝐡𝐞 𝐕𝐢𝐝𝐞𝐨 🎀`,
  attachment: fs.createReadStream(__dirname + "/cache/auto.mp4")
