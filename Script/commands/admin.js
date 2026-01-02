@@ -20,21 +20,22 @@ module.exports.run = async function({ api, event }) {
     var callback = () => api.sendMessage({
         body: `
 ┏━━━━━━━━━━━━━━━━━━━━━┓
-┃      🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟      
+┃    🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟      
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 👤 𝐍𝐚𝐦𝐞    : MD MOSTAKIM ISLAM SAGOR 
-┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫   : 𝐌𝐚𝐥𝐞
-┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : জন্মগত সিঙ্গেল 🙂💔
-┃ 🎂 𝐀𝐠𝐞     : 21+
-┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : 𝐈𝐬𝐥𝐚𝐦
-┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : তোমার জানি কাজ কি?
-┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : Rangpur, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
+┃ 👤 𝐍𝐚𝐦𝐞      : MD MOSTAKIM ISLAM SAGOR 
+┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫     : 𝐌𝐚𝐥𝐞
+┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧    : জন্মগত সিঙ্গেল 🙂💔
+┃ 🎂 𝐀𝐠𝐞       : 21+
+┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧    : 𝐈𝐬𝐥𝐚𝐦
+┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧   : তোমার জানি কাজ কি?
+┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬    : Bangladesh,Dhaka Rangpur 
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 🎭 𝐓𝐢𝐤𝐭𝐨𝐤   : 
-┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 : 
-┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : 
+┃ 🎭 𝐓𝐢𝐤𝐭𝐨𝐤     : md_mostakim_islam_sagor
+┃ 📢 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦   : @SAGOR69X
+┃ 🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤  : MD.MOSTAKIM.ISLAM.SAGOR
+┃ ▶️ YOU TUBE : @WEIRD.MOSTAKIM
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 🕒 𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
+┃ 🕒  𝐔𝐩𝐝𝐚𝐭𝐞𝐝 𝐓𝐢𝐦𝐞:  ${time}
 ┗━━━━━━━━━━━━━━━━━━━━━┛
         `,
         attachment: fs.createReadStream(__dirname + "/cache/1.png")
