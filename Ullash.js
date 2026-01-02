@@ -11,9 +11,9 @@ try {
 } catch (err) {
     logger(`Failed to load package.json: ${err.message}`, "[ Error ]");
 }
-const BOT_NAME = pkg.name || "Islamick Bot";
+const BOT_NAME = pkg.name || "MOSTAKIM-V2-BOT";
 const BOT_VERSION = pkg.version || "5.0.0";
-const BOT_DESC = pkg.description || "Islamick Chat Bot";
+const BOT_DESC = pkg.description || "MOSTAKIM-V2-BOT";
 
 // ==================== Express Server ====================
 const app = express();
@@ -61,7 +61,7 @@ function startBot(message) {
 }
 
 // ==================== Log Meta Info ====================
-logger(BOT_NAME, "[ NAME ]");
+logger(BOT_NAME, "[ MOSTAKIM-V2-BOT ]");
 logger(`Version: ${BOT_VERSION}`, "[ VERSION ]");
 logger(BOT_DESC, "[ DESCRIPTION ]");
 
