@@ -1,8 +1,8 @@
 module.exports.config = {
-  'name': "goiadmin",
+  'name': "koiadmin",
   'version': "1.0.0",
   'hasPermssion': 0x0,
-  'credits': "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  'credits': "MOSTAKIM-V2-BOT",
   'description': "Bot will rep ng tag admin or rep ng tagbot ",
   'commandCategory': "Other",
   'usages': '',
