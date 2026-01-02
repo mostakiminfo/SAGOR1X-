@@ -3,7 +3,7 @@ module.exports = {
  name: "autodl",
  version: "0.0.2",
  hasPermssion: 0,
- credits: "SHAON",
+ credits: "MOSTAKIM",
  description: "auto video download",
  commandCategory: "user",
  usages: "",
