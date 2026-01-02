@@ -2,11 +2,11 @@ module.exports.config = {
 	name: "setname",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "MOSTAKIM-V2-BOT",
 	description: "Change the nickname in your group or the person you tag",
 	commandCategory: "Box Chat",
-	usages: "[name]",
-	cooldowns: 3
+	usages: "[MOSTAKIM-V2-BOT]",
+	cooldowns: "1",
 };
 
 module.exports.run = async function({ api, event, args }) {
