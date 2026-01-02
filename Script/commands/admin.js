@@ -4,13 +4,13 @@ const fs = require("fs-extra");
 const moment = require("moment-timezone");
 
 module.exports.config = {
-    name: "admin00",
+    name: "admin",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "MOSTAKIM", //don't change my credit 
+    credits: "MOSTAKIM", //
     description: "Show Owner Info",
     commandCategory: "info",
-    usages: "",
+    usages: "Admin",
     cooldowns: 1
 };
 
@@ -22,10 +22,10 @@ module.exports.run = async function({ api, event }) {
 ┏━━━━━━━━━━━━━━━━━━━━━┓
 ┃      🌟 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 🌟      
 ┣━━━━━━━━━━━━━━━━━━━━━┫
-┃ 👤 𝐍𝐚𝐦𝐞    : MOSTAKIM ISLAM SAGOR 
+┃ 👤 𝐍𝐚𝐦𝐞    : MD MOSTAKIM ISLAM SAGOR 
 ┃ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫   : 𝐌𝐚𝐥𝐞
 ┃ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧  : জন্মগত সিঙ্গেল 🙂💔
-┃ 🎂 𝐀𝐠𝐞     : 21
+┃ 🎂 𝐀𝐠𝐞     : 21+
 ┃ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧  : 𝐈𝐬𝐥𝐚𝐦
 ┃ 🏫 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : তোমার জানি কাজ কি?
 ┃ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬  : Rangpur, 𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡
@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event }) {
         attachment: fs.createReadStream(__dirname + "/cache/1.png")
     }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/1.png"));
   
-    return request(encodeURI(`https://www.facebook.com/photo.php?fbid=1077745397505881&set=a.106830557930708&type=3&app=fbl`))
+    return request(encodeURI(`https://www.facebook.com/photo.php?fbid=945927367354352&set=a.106830557930708&type=3&app=fbl`))
         .pipe(fs.createWriteStream(__dirname + '/cache/1.png'))
         .on('close', () => callback());
 };
