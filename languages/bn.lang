@@ -55,7 +55,7 @@ users.needObject=Object thakte hobe
 # includes/handle/handleCommand.js
 
 handleCommand.userBanned=Box e ablamir oporad e tore ban kore deya hoise-!!🚫
-handleCommand.threadBanned=Group ban hoise..!⛔️\nPlease Owner MOSTAKIM er shathe contact koro unban er jonno ⚠️
+handleCommand.threadBanned=Group ban hoise..!⛔️\nPlease Owner MOSTAKIM . er shathe contact koro unban er jonno ⚠️
 handleCommand.commandNotExist=━━━━━━━✦━━━━━━━ \n✨ Assalamu Alaikum! 💖🌟\n━━━━━━━✦━━━━━━━\n\nTumar deya command valid na.\nCould it be— \n•—» %1  «—•\nCheck koro input, please!\n━━━━━━━✦━━━━━━━
 handleCommand.commandThreadBanned=Tumar thread e "%1" command use kora jacche na
 handleCommand.commandUserBanned=Tumi "%1" command use korte parba na
